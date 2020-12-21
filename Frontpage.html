@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jeff's Stock Info</title>
+            <style>
+            body, form{
+				margin: 0 auto;
+				max-width:620px;
+				overflow-x:hidden;
+			}
+			fieldset{
+				display: flex;
+			}
+			input#artist{
+				flex-grow:100;
+				margin: 0 20px;
+			}
+            </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to my Stock Searcher!</h1>
+        
+        <h4>Please put in any stock ticker symbol to get info</h4>
+		<img src="stock-exchange-913982_640.jpg" alt= "stock calendar">
+        <form action="search" method="get">
+			<fieldset>
+				<label for="stock">Stock Ticker:</label>
+				<input id="stock" name="stock" type="text" />
+				<input type="submit" value="Search" />
+			</fieldset>
+		</form>
+
+    </body>
+
+</html>
